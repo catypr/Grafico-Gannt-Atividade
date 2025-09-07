@@ -4,8 +4,8 @@ gantt
 title Construção de Casa
 dateFormat YYYY-MM-DD
 section Início do Projeto
-Planejamentos e Aprovações: active, a1, 2025-05-01, 20d
-Preparação do Terreno: crit, a2, after a1, 10d
+Planejamentos e Aprovações: done, a1, 2025-05-01, 20d
+Preparação do Terreno: active, a2, after a1, 10d
 Construção da Casa: crit, a3, after a2, 15d
 Fundação: crit, a4, after a3, 30d
 Instalção Elétrica e Hidráulica: crit, a5, after a4, 20d
